@@ -135,7 +135,6 @@ int main()
 
 	//main loop
 	while (ii->simulation_stop == 0) {
-		clock_gettime(CLOCK_MONOTONIC, &now);
 		
 		//LOG("Checking all inputs\n");
 
