@@ -44,7 +44,7 @@ static void sigint_handler(int sig __attribute__((unused)))
 {
 	PRINTF("SIGINT: ending simulation\n");
 	ii->simulation_stop = 1;
-	
+
 }
 
 
@@ -194,6 +194,7 @@ int main()
 				// odgovora nema
 				else
 				{
+					clock_gettime(CLOCK_MONOTONIC, &now);
 					struct timespec temp = id[i].next_run;
 					TIMESPEC_ADD_MS(temp, inputs[i].T);
 
