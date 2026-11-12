@@ -1,0 +1,69 @@
+000:000000 CONTROLLER] Controller ready
+[000:000000 CONTROLLER] Controller starting
+[000:000000 INPUTSIM] Input simulator starting
+[001:000712 CONTROLLER] in ulaz: (zahtjev 1)
+[001:500918 CONTROLLER]  in ulaz : gotova obrada
+[001:501202 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[002:001933 CONTROLLER] in ulaz: (zahtjev 2)
+[002:502075 CONTROLLER]  in ulaz : gotova obrada
+[002:502118 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[003:001088 CONTROLLER] in ulaz: (zahtjev 3)
+[004:001240 CONTROLLER]  in ulaz : gotova obrada
+[004:001353 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[005:001901 CONTROLLER] in ulaz: (zahtjev 4)
+[005:502050 CONTROLLER]  in ulaz : gotova obrada
+[005:503278 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[006:001919 CONTROLLER] in ulaz: (zahtjev 5)
+[006:502069 CONTROLLER]  in ulaz : gotova obrada
+[006:502672 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[007:002357 CONTROLLER] in ulaz: (zahtjev 6)
+[008:002512 CONTROLLER]  in ulaz : gotova obrada
+[008:002778 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[009:000532 CONTROLLER] in ulaz: (zahtjev 7)
+[009:500681 CONTROLLER]  in ulaz : gotova obrada
+[009:500966 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[010:001654 CONTROLLER] in ulaz: (zahtjev 8)
+[010:501871 CONTROLLER]  in ulaz : gotova obrada
+[010:501897 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[011:001737 CONTROLLER] in ulaz: (zahtjev 9)
+[012:001886 CONTROLLER]  in ulaz : gotova obrada
+[012:002271 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[013:000971 CONTROLLER] in ulaz: (zahtjev 10)
+[013:501105 CONTROLLER]  in ulaz : gotova obrada
+[013:501444 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[014:000382 CONTROLLER] in ulaz: (zahtjev 11)
+[014:501042 CONTROLLER]  in ulaz : gotova obrada
+[014:501096 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[015:001997 CONTROLLER] in ulaz: (zahtjev 12)
+[016:002150 CONTROLLER]  in ulaz : gotova obrada
+[016:002787 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+[017:001959 CONTROLLER] in ulaz: (zahtjev 13)
+[017:502102 CONTROLLER]  in ulaz : gotova obrada
+[017:502101 INPUTSIM] in ulaz : STIGAO NA VRIJEME
+^C[017:687493 CONTROLLER] SIGINT: ending simulation
+[017:687443 INPUTSIM] SIGINT: ending simulation
+[017:687549 CONTROLLER] Controller ending
+
+Input in (t0=1000, T=1000, C=500, D=1000):
+nr_wakeups=13
+nr_OK_responses=13
+nr_LATE_responses=0
+nr_NO_responses=0
+response_avg=654
+response_min=500
+response_max=1001
+reaction_avg=0
+reaction_min=0
+reaction_max=1
+
+Overall stats:
+nr_wakeups=13
+nr_OK_responses=13
+nr_LATE_responses=0
+nr_NO_responses=0
+response_avg=654
+response_min=500
+response_max=1001
+reaction_avg=0
+reaction_min=0
+reaction_max=1

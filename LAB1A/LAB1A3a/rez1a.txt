@@ -1,0 +1,126 @@
+leo@Valhalla:~/FER/SEM7/SRSV/LAB1A/LAB1A3a$ make run
+Starting input-simulator
+in4skip zadatak bi presao U < 1
+in5skip zadatak bi presao U < 1
+[000:000000 INPUTSIM] Input simulator ready
+Starting controller
+in4skip zadatak bi presao U < 1
+in5skip zadatak bi presao U < 1
+[000:000000 CONTROLLER] Controller ready
+[000:000000 CONTROLLER] Controller starting
+[000:000000 INPUTSIM] Input simulator starting
+[000:001101 CONTROLLER] in1 ulaz: (zahtjev 1)
+[000:101448 CONTROLLER]  in1 ulaz : gotova obrada
+[000:101490 CONTROLLER] in2 ulaz: (zahtjev 1)
+[000:101518 INPUTSIM] in1 ulaz : STIGAO NA VRIJEME
+[000:301605 CONTROLLER]  in2 ulaz : gotova obrada
+[000:301651 CONTROLLER] in3 ulaz: (zahtjev 1)
+[000:302432 INPUTSIM] in2 ulaz : STIGAO NA VRIJEME
+[000:401724 CONTROLLER]  in3 ulaz : gotova obrada
+[000:401877 INPUTSIM] in3 ulaz : STIGAO NA VRIJEME
+[000:500706 CONTROLLER] in6 ulaz: (zahtjev 1)
+[000:600844 CONTROLLER]  in6 ulaz : gotova obrada
+[000:601470 INPUTSIM] in6 ulaz : STIGAO NA VRIJEME
+[000:802007 CONTROLLER] in3 ulaz: (zahtjev 2)
+[000:902196 CONTROLLER]  in3 ulaz : gotova obrada
+[000:903112 INPUTSIM] in3 ulaz : STIGAO NA VRIJEME
+[001:001826 CONTROLLER] in1 ulaz: (zahtjev 2)
+[001:102540 CONTROLLER]  in1 ulaz : gotova obrada
+[001:102579 CONTROLLER] in2 ulaz: (zahtjev 2)
+[001:102720 INPUTSIM] in1 ulaz : STIGAO NA VRIJEME
+[001:302703 CONTROLLER]  in2 ulaz : gotova obrada
+[001:302733 CONTROLLER] in3 ulaz: (zahtjev 3)
+[001:302816 INPUTSIM] in2 ulaz : STIGAO NA VRIJEME
+[001:402877 CONTROLLER]  in3 ulaz : gotova obrada
+[001:402915 CONTROLLER] in6 ulaz: (zahtjev 2)
+[001:403294 INPUTSIM] in3 ulaz : STIGAO NA VRIJEME
+[001:500962 INPUTSIM] ULAZ in6 PRESKOCEN
+[001:503036 CONTROLLER]  in6 ulaz : gotova obrada
+[001:503205 INPUTSIM] in6 ulaz : STIGAO PREKASNO
+[001:801161 CONTROLLER] in3 ulaz: (zahtjev 4)
+[001:901588 CONTROLLER]  in3 ulaz : gotova obrada
+[001:902913 INPUTSIM] in3 ulaz : STIGAO NA VRIJEME
+[002:001732 CONTROLLER] in1 ulaz: (zahtjev 3)
+[002:101888 CONTROLLER]  in1 ulaz : gotova obrada
+[002:101927 CONTROLLER] in2 ulaz: (zahtjev 3)
+[002:102762 INPUTSIM] in1 ulaz : STIGAO NA VRIJEME
+[002:302041 CONTROLLER]  in2 ulaz : gotova obrada
+[002:302081 CONTROLLER] in3 ulaz: (zahtjev 5)
+[002:302448 INPUTSIM] in2 ulaz : STIGAO NA VRIJEME
+[002:402204 CONTROLLER]  in3 ulaz : gotova obrada
+[002:402244 CONTROLLER] in6 ulaz: (zahtjev 3)
+[002:402842 INPUTSIM] in3 ulaz : STIGAO NA VRIJEME
+[002:500055 INPUTSIM] ULAZ in6 PRESKOCEN
+[002:502363 CONTROLLER]  in6 ulaz : gotova obrada
+[002:503381 INPUTSIM] in6 ulaz : STIGAO PREKASNO
+[002:802131 CONTROLLER] in3 ulaz: (zahtjev 6)
+[002:902542 CONTROLLER]  in3 ulaz : gotova obrada
+[002:902830 INPUTSIM] in3 ulaz : STIGAO NA VRIJEME
+[003:000422 CONTROLLER] in1 ulaz: (zahtjev 4)
+[003:100595 CONTROLLER]  in1 ulaz : gotova obrada
+[003:100635 CONTROLLER] in2 ulaz: (zahtjev 4)
+[003:101253 INPUTSIM] in1 ulaz : STIGAO NA VRIJEME
+^C[003:276050 INPUTSIM] SIGINT: ending simulation
+[003:276096 CONTROLLER] SIGINT: ending simulation
+
+Input in1 (t0=0, T=1000, C=100, D=500):
+[003:276123 CONTROLLER]  in2 ulaz : gotova obrada
+nr_wakeups=4
+[003:276130 CONTROLLER] Controller ending
+nr_OK_responses=4
+nr_LATE_responses=0
+nr_NO_responses=0
+response_avg=101
+response_min=100
+response_max=102
+reaction_avg=0
+reaction_min=0
+reaction_max=1
+
+Input in2 (t0=0, T=1000, C=200, D=500):
+nr_wakeups=4
+nr_OK_responses=3
+nr_LATE_responses=0
+nr_NO_responses=0
+response_avg=301
+response_min=301
+response_max=302
+reaction_avg=101
+reaction_min=101
+reaction_max=102
+
+Input in3 (t0=300, T=500, C=100, D=500):
+nr_wakeups=6
+nr_OK_responses=6
+nr_LATE_responses=0
+nr_NO_responses=0
+response_avg=101
+response_min=100
+response_max=102
+reaction_avg=0
+reaction_min=0
+reaction_max=2
+
+Input in6 (t0=500, T=500, C=100, D=500):
+nr_wakeups=6
+nr_OK_responses=1
+nr_LATE_responses=2
+nr_NO_responses=2
+response_avg=367
+response_min=100
+response_max=502
+reaction_avg=267
+reaction_min=0
+reaction_max=402
+
+Overall stats:
+nr_wakeups=20
+nr_OK_responses=14
+nr_LATE_responses=2
+nr_NO_responses=2
+response_avg=188
+response_min=100
+response_max=502
+reaction_avg=69
+reaction_min=0
+reaction_max=402
